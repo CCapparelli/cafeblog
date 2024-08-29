@@ -1,0 +1,99 @@
+/* 
+    Padding, margin
+    1 valor - todos
+    2 valores - em cima, em baixo
+    4 valores - em cima, dir, em baixo, esqu
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    margin-top: 10pt;
+    font-size: 14pt;
+    font-family: initial;
+    text-align: left;
+}
+span {
+    font-weight: bold;
+    vertical-align: middle;
+    padding-right: 50px;
+}
+body {
+    background-color: rgb(235, 235, 235);
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.link {
+    text-align: right;
+    color: steelblue;
+    margin-top: 10px;
+}
+
+header {
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: brown;
+}
+header img {
+    position: absolute;
+    left: 50px;
+    width: 80px;
+    height: 50px;
+}
+nav {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: brown;
+    background-color: wheat;
+}
+footer {
+    height: 100px;
+    text-align: center;
+    background-color: black;
+}
+header span {
+    margin: 10px;
+    vertical-align: middle;
+}
+.content {
+    text-align: center;
+}
+.content img {
+    width: 80%;
+    height: 300px;
+    border-radius: 15px;
+}
+h3 {
+    margin-bottom: 10px;
+}
+main {
+    width: 85%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px auto;
+    height: 550px;
+}
+.about {
+    width: 80%;
+    float: left;
+}
+.side-top {
+    width: 20%;
+    float: right;
+    text-align: center;
+}
+.side-bottom {
+    width: 20%;
+    float: right;
+    background-color: white;
+    text-align: center;
+}
